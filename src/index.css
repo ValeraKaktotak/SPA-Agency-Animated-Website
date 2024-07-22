@@ -1,3 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span {
+    @apply text-dark_primary;
+  }
+
+  h1 {
+    @apply font-Sen text-3xl font-extrabold lg:text-6xl;
+  }
+  h2 {
+    @apply font-Sen text-5xl font-bold;
+  }
+  h3 {
+    @apply font-Sen text-8xl;
+  }
+  h4 {
+    @apply font-Sen text-2xl !leading-relaxed md:text-4xl;
+  }
+  h6 {
+    @apply font-Sen font-bold leading-8 text-[#253d57];
+  }
+  p {
+    @apply font-Sen text-[0.95rem];
+  }
+
+  button {
+    @apply font-Sen;
+  }
+
+  input,
+  textarea {
+    @apply font-Sen bg-transparent outline-none;
+  }
+}
+
+@layer utilities {
+  .btn {
+    @apply border-dark_primary rounded-full border-2 px-9 py-2 font-medium;
+  }
+  .title {
+    @apply text-2xl md:text-3xl;
+  }
+  .subtitle {
+    @apply text-gray text-[14px];
+  }
+}

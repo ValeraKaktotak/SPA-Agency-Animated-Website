@@ -45,18 +45,18 @@
 
   input,
   textarea {
-    @apply font-Sen bg-transparent outline-none;
+    @apply bg-transparent font-Sen outline-none;
   }
 }
 
 @layer utilities {
   .btn {
-    @apply border-dark_primary rounded-full border-2 px-9 py-2 font-medium;
+    @apply rounded-full border-2 border-dark_primary px-9 py-2 font-medium;
   }
   .title {
     @apply text-2xl md:text-3xl;
   }
   .subtitle {
-    @apply text-gray text-[14px];
+    @apply text-[14px] text-gray;
   }
 }

@@ -7,6 +7,10 @@ import massage from '@/assets/images/Skills/massage.png'
 import sauna from '@/assets/images/Skills/sauna.png'
 import spray from '@/assets/images/Skills/spray.png'
 
+import services_logo1 from '@/assets/images/Services/logo1.png'
+import services_logo2 from '@/assets/images/Services/logo2.png'
+import services_logo3 from '@/assets/images/Services/logo3.png'
+
 //Types
 import type { Content } from '@/types/content'
 
@@ -31,7 +35,6 @@ export const content: Content = {
       }
     ]
   },
-
   skills: {
     title: 'Features',
     subtitle: 'OUR SKILLS',
@@ -68,5 +71,26 @@ export const content: Content = {
       }
     ],
     icon: MdArrowForward
+  },
+  services: {
+    title: 'Services',
+    subtitle: 'WHAT WE OFFER',
+    service_content: [
+      {
+        title: 'Relaxing Environment',
+        para: 'From the moment you walk in the door, our focus is on Relaxation. All our services are tailored to meet each individuals needs.',
+        logo: services_logo1
+      },
+      {
+        title: 'High Quality Products',
+        para: 'We proudly use and stock Dermalogica skin care, Lash doctor, Sunscape perfection tan, jessica, gloss & co.',
+        logo: services_logo2
+      },
+      {
+        title: 'Professionals in Beauty',
+        para: 'SPA Skin Beauty Indulgence has been operating since 2002 and owner Kristy has more than 20 years beauty experience.',
+        logo: services_logo3
+      }
+    ]
   }
 }

@@ -10,7 +10,7 @@ const Hero: FC = () => {
   const { hero }: Content = content
   return (
     <section id='home'>
-      <div className='relative flex min-h-screen flex-col-reverse items-center justify-center px-2 md:flex-row'>
+      <div className='relative flex min-h-screen flex-col-reverse items-center justify-center overflow-hidden px-2 md:flex-row'>
         {/* Background block BG */}
         <div
           data-aos='slide-left'

@@ -3,6 +3,7 @@ import { IconType } from 'react-icons'
 interface Content {
   hero: Hero
   skills: Skills
+  services: Services
 }
 
 interface Skills {
@@ -16,6 +17,7 @@ interface Skillcontent {
   para: string
   logo: string
 }
+
 interface Hero {
   title: string
   paragraph: string
@@ -26,4 +28,15 @@ interface Hero {
 interface Herocontent {
   count: string
   text: string
+}
+
+interface Services {
+  title: string
+  subtitle: string
+  service_content: ServiceContent[]
+}
+interface ServiceContent {
+  title: string
+  para: string
+  logo: string
 }

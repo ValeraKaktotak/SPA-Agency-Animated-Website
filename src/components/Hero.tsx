@@ -3,11 +3,14 @@ import type { FC } from 'react'
 //Content
 import { content } from '@/Content'
 
+//Types
+import type { Content } from '@/types/content'
+
 const Hero: FC = () => {
-  const { hero } = content
+  const { hero }: Content = content
   return (
     <section id='home'>
-      <div className='relative flex min-h-screen flex-col-reverse items-center justify-center px-2 md:flex-row md:items-end'>
+      <div className='relative flex min-h-screen flex-col-reverse items-center justify-center px-2 md:flex-row'>
         {/* Background block BG */}
         <div
           data-aos='slide-left'
@@ -16,7 +19,7 @@ const Hero: FC = () => {
         ></div>
 
         {/* First Column */}
-        <div data-aos='fade-down' className='mr-0 pb-72 pt-5 md:mr-16'>
+        <div data-aos='fade-down' className='mr-0 pb-0 pt-5 md:mr-16 md:pb-72'>
           <h2>{hero.title}</h2>
           <p className='mt-5 flex max-w-[500px] justify-end'>
             {hero.paragraph}

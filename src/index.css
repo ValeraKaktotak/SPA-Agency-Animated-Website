@@ -60,3 +60,8 @@
     @apply text-[14px] text-gray;
   }
 }
+
+/* Swiper styles */
+.swiper-pagination-bullet {
+  @apply h-3 w-3 bg-dark_primary;
+}

@@ -11,6 +11,11 @@ import services_logo1 from '@/assets/images/Services/logo1.png'
 import services_logo2 from '@/assets/images/Services/logo2.png'
 import services_logo3 from '@/assets/images/Services/logo3.png'
 
+import project1 from '@/assets/images/Projects/img1.png'
+import project2 from '@/assets/images/Projects/img2.png'
+import project3 from '@/assets/images/Projects/img3.png'
+import person_project from '@/assets/images/Projects/person.png'
+
 //Types
 import type { Content } from '@/types/content'
 
@@ -90,6 +95,28 @@ export const content: Content = {
         title: 'Professionals in Beauty',
         para: 'SPA Skin Beauty Indulgence has been operating since 2002 and owner Kristy has more than 20 years beauty experience.',
         logo: services_logo3
+      }
+    ]
+  },
+  projects: {
+    title: 'Place',
+    subtitle: 'INFRASTRUCTURE',
+    image: person_project,
+    project_content: [
+      {
+        title: 'Face Waxing',
+        des: 'Free spa massage for young woman with facial mask on face - indoors.',
+        image: project1
+      },
+      {
+        title: 'Relaxing',
+        des: 'From the moment you walk in the door, our focus is pn Relaxation.',
+        image: project2
+      },
+      {
+        title: 'SPA Luxury',
+        des: 'Our relaxing boutique studio is located the parking and easy access.',
+        image: project3
       }
     ]
   }

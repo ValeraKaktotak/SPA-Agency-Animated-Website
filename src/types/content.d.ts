@@ -4,6 +4,7 @@ interface Content {
   hero: Hero
   skills: Skills
   services: Services
+  projects: Projects
 }
 
 interface Skills {
@@ -39,4 +40,16 @@ interface ServiceContent {
   title: string
   para: string
   logo: string
+}
+
+interface Projects {
+  title: string
+  subtitle: string
+  image: string
+  project_content: Projectcontent[]
+}
+interface Projectcontent {
+  title: string
+  des: string
+  image: string
 }

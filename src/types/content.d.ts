@@ -5,6 +5,7 @@ interface Content {
   skills: Skills
   services: Services
   projects: Projects
+  testimonials: Testimonials
 }
 
 interface Skills {
@@ -52,4 +53,15 @@ interface Projectcontent {
   title: string
   des: string
   image: string
+}
+
+interface Testimonials {
+  title: string
+  subtitle: string
+  testimonials_content: Testimonialscontent[]
+}
+interface Testimonialscontent {
+  review: string
+  img: string
+  name: string
 }

@@ -16,6 +16,11 @@ import project2 from '@/assets/images/Projects/img2.png'
 import project3 from '@/assets/images/Projects/img3.png'
 import person_project from '@/assets/images/Projects/person.png'
 
+import avatar1 from '@/assets/images/Testimonials/avatar1.png'
+import avatar2 from '@/assets/images/Testimonials/avatar2.png'
+import avatar3 from '@/assets/images/Testimonials/avatar3.png'
+import avatar4 from '@/assets/images/Testimonials/avatar4.png'
+
 //Types
 import type { Content } from '@/types/content'
 
@@ -117,6 +122,36 @@ export const content: Content = {
         title: 'SPA Luxury',
         des: 'Our relaxing boutique studio is located the parking and easy access.',
         image: project3
+      }
+    ]
+  },
+  testimonials: {
+    title: 'Testimonials',
+    subtitle: 'MY CLIENT REVIEWS',
+    testimonials_content: [
+      {
+        review:
+          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veritatis debitis architecto ratione ipsam pariatur aperiam dolorem iure id dolor, repellat quas voluptas aut, omnis quisquam. Magni architecto facere deserunt.',
+        img: avatar1,
+        name: 'Lopex'
+      },
+      {
+        review:
+          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veritatis debitis architecto ratione ipsam pariatur aperiam dolorem iure id dolor, repellat quas voluptas aut, omnis quisquam. Magni architecto facere deserunt.',
+        img: avatar2,
+        name: 'Thomas'
+      },
+      {
+        review:
+          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veritatis debitis architecto ratione ipsam pariatur aperiam dolorem iure id dolor, repellat quas voluptas aut, omnis quisquam. Magni architecto facere deserunt.',
+        img: avatar3,
+        name: 'Philips'
+      },
+      {
+        review:
+          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti veritatis debitis architecto ratione ipsam pariatur aperiam dolorem iure id dolor, repellat quas voluptas aut, omnis quisquam. Magni architecto facere deserunt.',
+        img: avatar4,
+        name: 'Scott'
       }
     ]
   }

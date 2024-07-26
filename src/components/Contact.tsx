@@ -8,7 +8,7 @@ const Contact: FC = () => {
 
   return (
     <section id='contact' className='bg-dark_primary'>
-      <div className='px-5 py-14 md:container'>
+      <div className='overflow-hidden px-5 py-14 md:container'>
         <h2 data-aos='fade-down' className='title text-white'>
           {contact.title}
         </h2>

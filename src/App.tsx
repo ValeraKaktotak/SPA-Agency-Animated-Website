@@ -26,13 +26,17 @@ const App: FC = () => {
 
   return (
     <div>
+      <NavBar />
       <Hero />
       <Skills />
       <Services />
       <Projects />
       <Testimonials />
       <Contact />
-      <NavBar />
+      <footer className='p-3 text-center'>
+        <h6>Luxury SPA</h6>
+        <p>All 2024 &copy; Copyrights All Rights Reserved.</p>
+      </footer>
     </div>
   )
 }

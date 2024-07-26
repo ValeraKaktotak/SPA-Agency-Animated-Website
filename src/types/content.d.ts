@@ -6,6 +6,8 @@ interface Content {
   services: Services
   projects: Projects
   testimonials: Testimonials
+  contact: Contact
+  footer: Footer
 }
 
 interface Skills {
@@ -64,4 +66,19 @@ interface Testimonialscontent {
   review: string
   img: string
   name: string
+}
+
+interface Contact {
+  title: string
+  subtitle: string
+  social_media: Socialmedia[]
+}
+interface Socialmedia {
+  text: string
+  icon: IconType
+  link: string
+}
+
+interface Footer {
+  text: string
 }

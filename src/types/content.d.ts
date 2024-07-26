@@ -1,6 +1,7 @@
 import { IconType } from 'react-icons'
 
 interface Content {
+  nav: Nav[]
   hero: Hero
   skills: Skills
   services: Services
@@ -8,6 +9,11 @@ interface Content {
   testimonials: Testimonials
   contact: Contact
   footer: Footer
+}
+
+interface Nav {
+  link: string
+  icon: IconType
 }
 
 interface Skills {

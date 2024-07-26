@@ -41,7 +41,10 @@ const Skills: FC = () => {
   }
 
   return (
-    <section id='skills' className='min-h-fit bg-bg_light_primary'>
+    <section
+      id='skills'
+      className='min-h-fit overflow-hidden bg-bg_light_primary'
+    >
       {/* Modal Dialog Section */}
       <Modal
         isOpen={modalIsOpen}

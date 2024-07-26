@@ -8,7 +8,7 @@ const Services: FC = () => {
 
   return (
     <section id='services'>
-      <div className='px-5 py-14 md:container'>
+      <div className='overflow-hidden px-5 py-14 md:container'>
         <h2 data-aos='fade-down' className='title'>
           {services.title}
         </h2>

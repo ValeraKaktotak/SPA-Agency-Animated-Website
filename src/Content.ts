@@ -25,14 +25,25 @@ import avatar4 from '@/assets/images/Testimonials/avatar4.png'
 import type { Content } from '@/types/content'
 
 //Import icons from react-icons
+import { BiUser } from 'react-icons/bi'
 import { BsInstagram } from 'react-icons/bs'
 import { GrMail } from 'react-icons/gr'
-import { MdArrowForward, MdCall } from 'react-icons/md'
-// import { TbSmartHome } from 'react-icons/tb'
-// import { BiUser } from 'react-icons/bi'
-// import { RiStackFill, RiProjectorLine } from 'react-icons/ri'
+import {
+  MdArrowForward,
+  MdCall,
+  MdOutlinePermContactCalendar
+} from 'react-icons/md'
+import { RiProjectorLine, RiStackFill } from 'react-icons/ri'
+import { TbSmartHome } from 'react-icons/tb'
 
 export const content: Content = {
+  nav: [
+    { link: '#home', icon: TbSmartHome },
+    { link: '#skills', icon: BiUser },
+    { link: '#services', icon: RiStackFill },
+    { link: '#projects', icon: RiProjectorLine },
+    { link: '#contact', icon: MdOutlinePermContactCalendar }
+  ],
   hero: {
     title: 'Luxurious Beauty',
     paragraph:

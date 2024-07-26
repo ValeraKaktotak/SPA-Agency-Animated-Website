@@ -18,7 +18,7 @@ const Projects: FC = () => {
 
   return (
     <section id='projects' className='bg-bg_light_primary'>
-      <div className='flex flex-col px-5 pt-14 md:container'>
+      <div className='flex flex-col overflow-hidden px-5 pt-14 md:container'>
         <div>
           <h2 data-aos='fade-down' className='title'>
             {projects.title}

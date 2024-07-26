@@ -44,7 +44,7 @@ const Testimonials: FC = () => {
         {testimonials.testimonials_content.map((content, i) => (
           <SwiperSlide key={i}>
             <div
-              className={`mx-8 flex h-full flex-col items-center gap-6 rounded-2xl border-2 border-slate-200 bg-bg_light_primary p-4 md:flex-row ${activeIndex !== i && 'scale-75 blur-sm'}`}
+              className={`mx-8 flex h-full flex-col items-center gap-6 rounded-2xl border-2 border-slate-200 bg-bg_light_primary p-4 duration-300 md:flex-row ${activeIndex !== i && 'scale-75 blur-sm'}`}
             >
               <img className='h-24' src={content.img} alt={content.name} />
               <div>

@@ -25,7 +25,12 @@ import avatar4 from '@/assets/images/Testimonials/avatar4.png'
 import type { Content } from '@/types/content'
 
 //Import icons from react-icons
-import { MdArrowForward } from 'react-icons/md'
+import { BsInstagram } from 'react-icons/bs'
+import { GrMail } from 'react-icons/gr'
+import { MdArrowForward, MdCall } from 'react-icons/md'
+// import { TbSmartHome } from 'react-icons/tb'
+// import { BiUser } from 'react-icons/bi'
+// import { RiStackFill, RiProjectorLine } from 'react-icons/ri'
 
 export const content: Content = {
   hero: {
@@ -154,5 +159,29 @@ export const content: Content = {
         name: 'Scott'
       }
     ]
+  },
+  contact: {
+    title: 'Contact Us',
+    subtitle: 'FELL FREE TO REACH US',
+    social_media: [
+      {
+        text: 'test@gmail.com',
+        icon: GrMail,
+        link: 'mailto:test@gmail.com'
+      },
+      {
+        text: '+91 9903 339933',
+        icon: MdCall,
+        link: 'https://wa.me/123456789'
+      },
+      {
+        text: 'Instagram',
+        icon: BsInstagram,
+        link: 'https://instagram.com'
+      }
+    ]
+  },
+  footer: {
+    text: '2024 &copy; Copyrights All Rights Reserved'
   }
 }
